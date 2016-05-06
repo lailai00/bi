@@ -5,6 +5,52 @@
 	width: 100%;
 	height: 655px;
 }
+.titlesqtop10 {
+	top: 10px;
+}
+.titlesqtop35 {
+	top: 35px;
+}
+.weibo1 {
+	margin-left: 10px;
+}
+.weixinimg1 {
+	width:100%; 
+	height:100%;
+	background-image:  url(../images/weixinhao.bmp);
+}
+.demoBg {
+
+	background-image:  url(../images/demo1.bmp);
+}
+.demoBg2 {
+
+	background-image:  url(../images/demo2.bmp);
+}
+.demoBg3 {
+
+	background-image:  url(../images/demo3.bmp);
+}
+.demoDiv {
+
+	margin-right:0px;
+}
+.demostyle {
+	background:url(../images/bg.jpg) #F2F2F2 no-repeat;
+	background-position:0 -655px;
+	width:100%;
+	height:365px;
+}
+.weibo {
+	width: 18px;
+	height: 18px;
+	background-image: url(../images/weibo.png);
+}
+.weixin {
+	width: 18px;
+	height: 18px;
+	background-image: url(../images/weixin.png);
+}
 
 .content {
 	width: 1200px;
