@@ -91,7 +91,7 @@ class Navbar extends React.Component {
                   <div className="weibo1">
                     <p>微信公众号</p>
                   </div>  
-                  <div className="weixinimg"/>  
+                  <div className="weixinimg"><img alt="关注我" width="100%" height="100%" src="images/weixinhao.bmp"> </img> </div>  
                   <div className="clear"/> 
                 </div> 
               </div>  
@@ -124,7 +124,7 @@ class Navbar extends React.Component {
                 <div className="demoBg1"/>  
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
-                  <p>针对各数据类型采用不同的可视化方式，更准确的展现数 据隐含的信息。灵活的互动设计过程协助用户迅速获取分 析结果。</p>  
+                  <p>针对各数据类型采用不同的可视化方式，更准确的展<br></br>现数 据隐含的信息。灵活的互动设计过程协助用户迅<br></br>速获取分 析结果。</p>  
                   <div className="demoButton">点击我就运行啦~</div> 
                 </div> 
               </div>  
@@ -135,7 +135,7 @@ class Navbar extends React.Component {
                 <div className="demoBg2"/>  
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
-                  <p>利用定时刷新功能，实时查看数据变化。丰富的可视化动态效果，让数据变化一览无余。</p>  
+                  <p>利用定时刷新功能，实时查看数据变化。丰富的可视<br></br>化动态效果，让数据变化一览无余。</p>  
                   <div className="demoButton">点击我就运行啦~</div> 
                 </div> 
               </div>  
@@ -146,7 +146,7 @@ class Navbar extends React.Component {
                 <div className="demoBg3"/>  
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
-                  <p>可扩展的函数库和预测功能，让分析手段再无限制。时尚新潮的设计工具让分析报告形式丰富绚丽，告别千篇一律。</p>  
+                  <p>可扩展的函数库和预测功能，让分析手段再无限制。<br></br>时尚新潮的设计工具让分析报告形式丰富绚丽，告<br></br>别千篇一律。</p>  
                   <div className="demoButton">点击我就运行啦~</div> 
                 </div> 
               </div>  
