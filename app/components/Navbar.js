@@ -121,7 +121,7 @@ class Navbar extends React.Component {
           <div className="content"> 
             <div className="demoDiv"> 
               <div id="demo1" className="demoPic"> 
-                <div className="demoBg"/>  
+                <div className="demoBg1"/>  
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
                   <p>针对各数据类型采用不同的可视化方式，更准确的展现数 据隐含的信息。灵活的互动设计过程协助用户迅速获取分 析结果。</p>  

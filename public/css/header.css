@@ -17,19 +17,22 @@
 .weixinimg1 {
 	width:100%; 
 	height:100%;
-	background-image:  url(../images/weixinhao.bmp);
+	background-image:  url(../images/weixinhao.png);
 }
 .demoBg1 {
-
-	background-image:  url(../images/demo1.bmp);
+	width:100%; 
+	height:100%;
+	background-image:  url(../images/demo1.png);
 }
 .demoBg2 {
-
-	background-image:  url(../images/demo2.bmp);
+	width:100%; 
+	height:100%;
+	background-image:  url(../images/demo2.png);
 }
 .demoBg3 {
-
-	background-image:  url(../images/demo3.bmp);
+	width:100%; 
+	height:100%;
+	background-image:  url(../images/demo3.png);
 }
 .demoDiv {
 
