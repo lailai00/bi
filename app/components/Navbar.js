@@ -31,6 +31,10 @@ class Navbar extends React.Component {
         });
   }
 
+  handleClick() {
+   window.open('http://125.39.71.14:5000/gservice/loginto?forwardto=gShow.swf&amp;busername=admin&amp;bpassword=admin&amp;fid=40288b864673b8af014673d381ba0055&amp;t=1404439934662', '_blank');      
+  }
+
 
   render() {
     return (
@@ -104,7 +108,7 @@ class Navbar extends React.Component {
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
                   <p>针对各数据类型采用不同的可视化方式，更准确的展<br></br>现数 据隐含的信息。灵活的互动设计过程协助用户迅<br></br>速获取分 析结果。</p>  
-                  <div className="demoButton">点击我就运行啦~</div> 
+                  <div className="demoButton" onClick={this.handleClick}>点击我就运行啦~</div> 
                 </div> 
               </div>  
               <div className="demoTitle">天津市新房交易分析案例</div> 
@@ -115,7 +119,7 @@ class Navbar extends React.Component {
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
                   <p>利用定时刷新功能，实时查看数据变化。丰富的可视<br></br>化动态效果，让数据变化一览无余。</p>  
-                  <div className="demoButton">点击我就运行啦~</div> 
+                  <div className="demoButton" onClick={this.handleClick}>点击我就运行啦~</div> 
                 </div> 
               </div>  
               <div className="demoTitle">海洋经济评估分析案例</div> 
@@ -126,7 +130,7 @@ class Navbar extends React.Component {
                 <div className="demoShade"/>  
                 <div className="demoInfo"> 
                   <p>可扩展的函数库和预测功能，让分析手段再无限制。<br></br>时尚新潮的设计工具让分析报告形式丰富绚丽，告<br></br>别千篇一律。</p>  
-                  <div className="demoButton">点击我就运行啦~</div> 
+                  <div className="demoButton" onClick={this.handleClick}>点击我就运行啦~</div> 
                 </div> 
               </div>  
               <div className="demoTitle">天津空气质量检测平台</div> 
